@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mapa de Geolocalizacíon</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 col-xs-2 col-xs-offset-5">
+					<button class="center-block btn btn-large btn-warning" id="find-me">Find me</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">			
+				<div class="row col-md-12 col-sm-12 col-xs-12" id="map">
+					<!--Aqui ira nuestro mapa-->
+				</div>
+			</div>
+		</div>		
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsXaeWMnreQxzJM75l5aSxRH5_OUonRqY&libraries=places" type="text/javascript"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
